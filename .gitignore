@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & Secrets (CRITICAL SECURITY)
+.env
+.env.local
+.env*.local
+*.env
+*.pem
+*.key
+*.json-key
+service-account*.json
+firebase-admin*.json
+firebase-admin.json
+id.json
+*-keypair.json
+keypair*.json
+*authority*.json
+demo-authority-keypair.json
+scripts/*keypair*.json
+secrets/
+
+# Next.js build
+.next/
+out/
+dist/
+
+# Flutter / Dart / Android Build Artifacts
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+android/app/build/
+android/.gradle/
+android/local.properties
+*.apk
+*.aab
+*.lock
+app.*.symbols
+app.*.map.json
+
+# IDE & Editor
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Logs & Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+*.tsbuildinfo
+*.xml_dump

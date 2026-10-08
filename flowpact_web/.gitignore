@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+.env*.local
+.env
+*.pem
+*.key
+service-account*.json
+firebase-admin*.json
+
+secrets/
+*.json-key
+id.json
+*-keypair.json
+keypair*.json
+*.private.json

@@ -1,0 +1,20 @@
+{
+  "name": "flowpact-scripts",
+  "version": "1.0.0",
+  "description": "Devnet utilities for FlowPact",
+  "main": "create_demo_token.ts",
+  "scripts": {
+    "create-token": "ts-node create_demo_token.ts"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.3"
+  }
+}
